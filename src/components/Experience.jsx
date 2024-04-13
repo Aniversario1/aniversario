@@ -11,6 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
+import Renata from "../assets/logo.png"
 
 
 
@@ -23,6 +24,15 @@ const ExperienceCard = ({ experience }) => {
       }}
       contentArrowStyle={{ borderRight: "7px solid  #fff" }}
       iconStyle={{ background: experience.iconBg }}
+      icon={
+        <div className='flex justify-center items-center w-full h-full'>
+          <img
+            src={Renata}
+            alt="Renata"
+            className='w-[100%] object-contain'
+          />
+        </div>
+      }
     >
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>

@@ -1,6 +1,5 @@
 import React from 'react'
 import {styles} from '../Styles'
-import photo from '../assets/profile_wb_2.png'
 import { motion } from "framer-motion";
 const Hero = () => {
   return (

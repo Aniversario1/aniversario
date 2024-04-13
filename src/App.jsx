@@ -9,7 +9,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-BG-page'>
-        <motion.div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'  initial={{ opacity: 0}}
+        <motion.div className='bg-hero-pattern bg-cover bg-no-repeat bg-center' initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 2 }}>
           <Hero />
@@ -17,10 +17,10 @@ const App = () => {
         <About />
         <motion.div variants={textVariant()}>
 
-<h2 className={`${styles.sectionHeadText} mt-4 text-center`}>
-Nuestros besos.
-</h2>
-</motion.div>
+          <h2 className={`${styles.sectionHeadText} mt-4 text-center`}>
+            Nuestros besos.
+          </h2>
+        </motion.div>
         <Experience />
         <div>
           <Recorrido />
