@@ -11,7 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import Renata from "../assets/logo.png"
+import Renata from "/logo.png"
 
 
 
